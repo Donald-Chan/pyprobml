@@ -1,0 +1,8 @@
+A cell timed out while it was being executed, after 1200 seconds.
+The message was: Cell execution timed out.
+Here is a preview of the cell contents:
+-------------------
+['%%capture', '!sudo apt-get install subversion', '!svn checkout https://github.com/probml/pyprobml/trunk/vae .', '!pip install -qq pytorch-lightning einops', '']
+...
+['!wget -q https://storage.googleapis.com/probml_data/vae_checkpoints/vq_vae_celeba_conv.ckpt', '!wget -q https://github.com/probml/probml-data/raw/main/checkpoints/sigma_vae_celeba_conv.ckpt', '!wget -q https://storage.googleapis.com/probml_data/vae_checkpoints/pixel_cnn_celeba_conv.ckpt', '!wget -q https://storage.googleapis.com/probml_data/vae_checkpoints/beta_vae_celeba_conv.ckpt', '!wget -q https://storage.googleapis.com/probml_data/vae_checkpoints/vanilla_ae_celeba_conv.ckpt']
+-------------------
